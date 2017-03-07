@@ -9,7 +9,7 @@ class TasksController < ApplicationController
 
   def new           # GET /tasks/new
     @task = Task.new
-    # redirect_to tasks_path
+    redirect_to tasks_path
   end
 
   def create        # POST /tasks

@@ -5,9 +5,12 @@
   <input type="text" name="task_name" id="title">
   <input type="submit">
 </form> -->
-
+<!--
 <%= form_for(@task) do |f| %>
   <%= f.label :name, :placeholder => "enter task"%>
   <%= f.text_field :title %>
   <%= f.submit %>
 <% end %>
+ -->
+
+ <%= render 'form' %>
